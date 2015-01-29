@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+#head {
+    padding: 5px;
+    margin: 0 10px;
+}
+h1 {
+    font-family: 华文隶书;
+    font-weight: bold;
+    font-size: 48px;
+    color: #666;
+}
+h2 {
+    font-family: "Comic Sans MS", cursive;
+    color: #666;
+}
+#head #signature {
+    font-family: 华文隶书;
+    font-size: 24px;
+    color: #666;
+}
+#main {
+    border: 10px #666 dashed;
+    overflow: hidden;
+}
+body {
+    background-image: url(image/background.jpg);
+    margin: 0 10%;
+    padding: 10px;
+    font-family: "Comic Sans MS", cursive;
+}
+body #photo {
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px #3366FF dotted;
+    width: auto;
+    float: left;
+}
+body #basicinfo {
+    padding: 10px;
+    margin: 20px;
+    border: 5px #FFF dotted;
+    background-image: url(image/divback.gif);
+    overflow: hidden;
+}
+body #mybeloved {
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    width: 400px;
+    height: 480px;
+    border: 5px #FFF dotted;
+    background-image: url(image/divback.gif);
+}
+body #talent {
+    padding: 10px;
+    margin: 20px;
+    border: 5px #FFF dotted;
+    background-image: url(image/divback.gif);
+    float: right;
+    width: 450px;
+}
+body #contact {
+    padding: 10px;
+    margin: 20px;
+    border: 5px #FFF dotted;
+    background-image: url(image/divback.gif);
+    float: right;
+    width: 450px;
+}
+body #tail {
+}
+a:hover {
+    color: #FF3;
+}
