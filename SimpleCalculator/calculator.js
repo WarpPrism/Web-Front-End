@@ -31,6 +31,7 @@ function addEventHandlersToFunctionButtons(){
 
 function showResult(){
   // eval 函数参见http://www.w3school.com.cn/jsref/jsref_eval.asp
+  
   try {
   	var result = eval(expression);
 		updateOutput(result);
