@@ -1,0 +1,36 @@
+div#main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 240px;
+	text-align: center;
+}
+div#main > h1 {
+	font-size: 22px;
+	color: green;
+}
+div#calculator {
+	border: solid 2px;
+	padding: 7px;
+}
+div#buttons {
+	width: 240px;
+	text-align: left;
+}
+button {
+	width: 50px;
+	margin-right: 2px;
+}
+div#output_field {
+	margin-bottom: 0.5em;
+}
+input#output {
+	border: groove;
+	width: 214px;
+	text-align: right;
+}
+#error {
+	background-color: #afd;
+	color: red;
+	text-align: center;
+	padding: 2px 0 2px 0;
+}
