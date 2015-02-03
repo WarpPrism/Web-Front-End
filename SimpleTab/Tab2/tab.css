@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body #main {
+	margin: 15%;
+}
+body ul {
+	list-style-type:georgian;
+}
+#main .active {
+	background-color:#990;
+}
+body #main #headul {
+	margin: 0 5%;
+}
+body #main #headul li {
+	display: inline-block;
+	margin-left: 5px;
+	padding: 6px;
+	text-align: center;
+	border: #990 1px solid;
+	border-bottom: #FFF 0px solid;
+	font-family: 华文隶书;
+	font-size:25px
+}
+body #main li:hover {
+	cursor: pointer;
+	color: #06F;
+}
+body #main #content div {
+	margin: 0 10%;
+	border: 1px solid #990;
+	font-family: 微软雅黑;
+	font-size: 15px;
+}
+body #main #content div ul {
+	margin: 2%;
+}
+body #main #content div ul li {
+	line-height: 30px;
+}
+#main .show {
+	display: block;
+}
+#main .hide {
+	display: none;
+}
