@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(image/wallpaper.jpg);
+}
+#main {
+	margin: 3%;
+	padding: 10px;
+}
+#main h1 {
+	text-align: center;
+	color: #FFF;
+	opacity: 0.9;
+}
+#main .show {
+	display: block;
+}
+#main .hide {
+	display: none;
+}
