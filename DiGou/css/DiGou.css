@@ -1,0 +1,86 @@
+* {
+ margin 0;
+ padding 0;
+}
+body {
+	font-size: 12px;
+	font-family: 微软雅黑;
+	line-height: 1.7;
+	background-image: url(../image/back.gif);
+}
+li {
+	list-style: none;
+}
+#content {
+	width: 820px;
+	padding: 20px;
+	margin: 0 auto;
+}
+#content h1 {
+	font-family: 华文彩云;
+	color: #F33;
+	font-size: 250%;
+	background-color: transparent;
+}
+#content h1:hover {
+	background-color: #F33;
+	color:#FFF;
+}
+#content .item h2:hover {
+	background-color: #F33;
+	color:#FFF;
+}
+#content sub {
+	font-family: 微软雅黑;
+	font-size: 50%;
+	text-decoration: underline;
+	margin-left: 350px;
+}
+#content .item {
+	padding: 20px;
+	margin-bottom: 20px;
+	border: #F33 1px solid;
+}
+#content .item h2 {
+	font-weight: bold;
+	color: #F33;
+	border-bottom: #F33 2px solid;
+	margin-bottom: 10px;
+}
+#content .item li {
+	display: inline;
+	margin-right: 10px;
+}
+#content .item li a img {
+	width: 230px;
+	height: 230px;
+	border: none;
+}
+#menu {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: 370px;
+	width: 50px;
+}
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 3px 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #F33;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+#menu ul li a.current {
+	color: #FFF;
+	background-color: #F33;
+}
+#menu ul li a:hover {
+	font-style: oblique;
+	color: #FFF;
+	background-color: #F33;
+}
