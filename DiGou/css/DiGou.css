@@ -84,3 +84,14 @@ li {
 	color: #FFF;
 	background-color: #F33;
 }
+
+//解决IE 6兼容性
+* html, * html body {
+    background-image: url(about:blank);
+    background-attachment: fixed;
+}
+ * html #menu {
+     position: absolute;
+     bottom: auto;
+     top: expression(100+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+'px');
+ }
