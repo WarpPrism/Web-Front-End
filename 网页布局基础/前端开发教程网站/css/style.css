@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0; font-family: 微软雅黑; }
+a { text-decoration: none; }
+#wrap { width: 70%; margin: 0 auto; padding: 10px; border-left: 1px solid #9C9C9C; border-right: 1px solid #9C9C9C; }
+#header .logo { height: 90px; background: url(../images/logo.gif) no-repeat #F1F1F1; }
+#header .nav { margin: 10px 0; }
+#header .nav ul li { display: inline; list-style: none; margin: 20px; }
+#header .nav ul .current { border-bottom: 3px solid #cc0000; }
+#header .nav ul li:hover { border-bottom: 3px solid #cc0000; }
+#header .nav ul li a { color: #9A9A9A; font-size: 20px; }
+#mainbody #sidebar { width: 180px; }
+#mainbody #sidebar dl { text-indent: 10px; background: #F1F1F1; }
+#mainbody #sidebar dt { background-color: #BEBEBE; color: #FFF; line-height: 30px; font-weight: bold; }
+#mainbody #sidebar a { color: #000; line-height: 25px; font-size: 14px; }
+#mainbody #sidebar a:hover { color: red; text-decoration: underline; }
+#mainbody { position: relative; }
+#mainbody #content { position: absolute; top: 0px; left: 200px; }
+#mainbody #content h1 { font-weight: normal; font-size: 25px; border-bottom: 3px solid #C9C9C9; margin-bottom: 5px; }
+#mainbody #content .pageto { padding: 10px 0; margin-bottom: 10px; }
+#mainbody #content .pageto a { margin: 0 10px; background: #f3f3f3; padding: 5px 20px; border: 1px solid #dfdfdf; color: #555; font-size: 14px; }
+#mainbody #content .pageto a:hover { color: red; text-decoration: underline; }
+#mainbody #content h3 { font-weight: bold; font-size: 14px; }
+#mainbody #content p { line-height: 25px; font-size: 14px; }
+#mainbody #content .disline { border-bottom: 1px dashed #B6B6B6; margin: 10px 0; }
+#mainbody #content dl dt { line-height: 30px; font-weight: bold; font-size: 14px; }
+#mainbody #content dl dd { line-height: 25px; font-size: 14px; }
+#mainbody #content .tips { color: #8D8D8D; border-top: 3px solid #C9C9C9 }
+#mainbody #content .learn a { color: red; text-decoration: underline; }
+#mainbody #content .learn a:hover { text-decoration: none; }
+#footer { text-align: center; background: #BEBEBE; color: #fff; font-size: 14px; padding: 10px 0; }
