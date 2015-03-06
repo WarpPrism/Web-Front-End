@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".link .button").hover(function() {
+	$(".button").click(function() {
 		var title = $(this).attr("data");
 		//document.title = title;
 		$(".tip em").text(title);
@@ -7,7 +7,9 @@ $(document).ready(function() {
 		var posb = ($(".tip").outerWidth() - $(this).outerWidth()) / 2;
 		var pos = posa - posb + 25;
 		$(".tip").css("left",pos + "px").animate({"top":165,"opacity":1},500);
-	},function() {
-		$(".tip").animate({"top":140,"opacity":0},300)
-	})
-})
+	});
+    $(".button").mouseleave(function() {
+		$(".tip").animate({"top":140,"opacity":0},300);
+	});
+});
+
