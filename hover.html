@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>CSS 3 Hover</title>
+	<style type="text/css">
+		.demo,.mask,.image,.border {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+		}
+		.demo {
+			display: block;
+			position: relative;
+		}
+		.border,.mask {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.border {
+			border:10px solid #072256;
+			border-top-color: #E07514;
+			border-left-color: #E07514;
+			box-sizing:border-box;
+			transition:all 0.5s ease-in-out;
+		}
+		.mask {
+			text-align: center;
+			color: rgba(255,255,255,0);
+			transition:all 0.5s ease-in-out;
+		}
+		.info {
+			margin-top: 50%;
+			transform:translateY(-50%);
+		}
+		.image {
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		.demo:hover .mask {
+			background-color: rgba(0,0,0,0.5);
+			color: rgba(255,255,255,1);
+		}
+		.demo:hover .border {
+			transform:rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+	<h1>Please use chrome to open this page</h1>
+	<a href="#" class="demo">
+		<img class="image" src="http://pic.nipic.com/2007-09-17/200791714121951_2.jpg">
+		<div class="mask">
+			<div class="info">
+				<h3>Starry Night</h3>
+				<p>Description</p>
+			</div>
+		</div>
+		<div class="border"></div>
+	</a>
+</body>
+</html>
