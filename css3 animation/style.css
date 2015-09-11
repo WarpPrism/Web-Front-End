@@ -1,0 +1,132 @@
+#wrapper {
+    width: 100%;
+    position: relative;
+}
+#mover {
+    animation: myshape 10s infinite;
+    animation-timing-function: cubic-bezier(10,20,10,20);
+    animation-direction:alternate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2211ff;
+    opacity: 0.6;
+}
+
+#mover span {
+    text-shadow: 5px 5px 5px #000;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes myshape {
+    0% {
+
+    }
+    10% {
+        top: 10px;
+        left: 100px;
+        width: 100px;
+        height: 100px;
+        border-radius: 0%;
+        background-color: #ffff00;
+        transform: rotate(0deg);
+        opacity: 0.8;
+    }
+    20% {
+        top: 100px;
+        left: 300px;
+        width: 200px;
+        height: 100px;
+        border-radius: 0%;
+        background-color: #ff3300;
+        transform: rotate(30deg);
+        opacity: 0.8;
+    }
+    30% {
+        top: 300px;
+        left: 500px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #22ff00;
+        transform: rotate(90deg);
+        opacity: 0.5;
+    }
+    40% {
+        top: 200px;
+        left: 700px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        background-color: #a52f77;
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+    50% {
+        top: 300px;
+        left: 700px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #1221f7;
+        transform: rotateX(360deg);
+        opacity: 1;
+    }
+    60% {
+        top: 300px;
+        left: 700px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: #00ddff;
+        transform: rotateX(360deg);
+        opacity: 0.7;
+    }
+    70% {
+        top: 100px;
+        left: 800px;
+        width: 150px;
+        height: 150px;
+        border-radius: 0%;
+        background-color: #cc0022;
+        transform: rotateY(40deg);
+        opacity: 0.4;
+    }
+    80% {
+        top: 100px;
+        left: 800px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        background-color: #eeaaaa;
+        transform: rotateX(360deg);
+        opacity: 0.8;
+    }
+    90% {
+        top: 200px;
+        left: 700px;
+        width: 250px;
+        height: 250px;
+        border-radius: 0%;
+        background-color: #ddff33;
+        transform: rotateY(40deg);
+        opacity: 1;
+    }
+    100% {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #2211ff;
+        opacity: 0.6;
+    }
+}
